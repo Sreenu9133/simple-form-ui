@@ -171,3 +171,50 @@ form{
     }
 }
 
+@media (max-width:400px) {
+    .hero-section{
+        margin: 0;
+    }
+
+    .section1{
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .section2{
+        padding: 0 20px;
+    }
+
+    .form-section1{
+        flex-direction: column;
+    }
+
+    .input1{
+        width: 100%;
+    }
+}
+
+@media (max-width:382px) {
+    .section1-icons{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .section1{
+        margin-bottom: 0px;
+    }
+
+    .hero-section{
+        justify-content: center;
+        gap: 0;
+    }
+
+    .section2{
+        padding: 0 20px;
+    }
+}
+
+
+
